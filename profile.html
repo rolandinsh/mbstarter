@@ -1,34 +1,73 @@
-<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta charset="utf-8">
+<!DOCTYPE HTML><html dir="ltr" lang="lv-LV"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta charset="utf-8">
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
-<title>MediaBox.lv STARTER</title>
+<title>MediaBox.lv profile: Rolands Umbrovskis</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<link rel="stylesheet" href="http://i2.me2j.com/css/reset.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all" /><!-- optional -->
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all" /><!-- optional -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /><!-- our custom style -->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<meta name="description" content="Rolands Umbrovskis is WordPress web developer"/>
+<meta name="keywords" content="WordPress developer, Rolands Umbrovskis"/>
+<meta name="author" content="Umbrovskis.lv" />
+
 <!-- 
-viss pārējais head
+rest of head
+<meta name="google-site-verification" content="xyz" />
 -->
-</head><body>
+
+</head><body class="bodyclass">
 <div id="wrap">
 	<div id="layout">
-		<div itemscope itemtype="http://schema.org/Person" class="vcard">
-			<h1 itemprop="name" class="fn n"><span class="given-name">Jane</span> <span class="additional-name">Sally</span> <span class="family-name">Doe</span></h1>
-			<img src="janedoe.jpg" itemprop="image" class="photo" />
-			<span itemprop="jobTitle">Professor</span>
-			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="adr">
-            	<span itemprop="streetAddress" class="street-address">
-                20341 Whitworth Institute
-                405 N. Whitworth
-				</span>
-				<span itemprop="addressLocality" class="locality">Seattle</span>,
-				<span itemprop="addressRegion" class="region">WA</span>
-				<span itemprop="postalCode" class="postal-code">98052</span>
-                <span itemprop="addressCountry" class="country-name">United States of America</span>
-			</div>
-			<span itemprop="telephone" class="tel">(425) 123-4567</span>
-			<a href="mailto:jane-doe@xyz.edu" itemprop="email" class="email">jane-doe@xyz.edu</a>
-			<p>Jane's home page:<a href="http://www.janedoe.com" itemprop="url" class="url">janedoe.com</a></p>
-            
-		</div>
+		<div class="container" itemscope itemtype="http://schema.org/Person" class="vcard">
+
+			<header class="row">
+				<div class="columns grid_12 span12">
+					<h1 itemprop="name" class="fn n"><span class="given-name">Rolands</span> <span class="family-name">Umbrovskis</span></h1>
+					<p itemprop="jobTitle">WordPress web developer</p>
+				</div><!-- // columns -->
+			</header><!-- // row -->
+
+			<div id="content" class="row">
+				<div class="articles columns grid_8 span8">
+
+					<article id="article-1" class="post post-1 row">
+
+						<header class="enty-title columns grid_8 span8">
+							<h2>Contacts</h2>
+						</header><!-- // enty-title columns -->
+						<div class="entry-content columns grid_8 span8">
+
+<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="adr">
+	<span itemprop="streetAddress" class="street-address">Iela 123</span>,
+	<span itemprop="addressLocality" class="locality">Upeslejas</span>,
+	<span itemprop="addressRegion" class="region">Stopiņu novads</span>
+	<span itemprop="postalCode" class="postal-code">LV-2118</span>
+	<span itemprop="addressCountry" class="country-name">Latvia</span>
+</p>
+
+						</div><!-- // entry-content columns -->
+						<footer class="postmeta meta postfooter columns grid_8 span8">
+							<ul>
+								<li><span itemprop="telephone" class="tel">+371 12345678</span></li>
+								<li><a href="http://umbrovskis.com" itemprop="url" class="url">umbrovskis.com</a></li>
+								<li><a href="mailto:umbrovskis@example.com" itemprop="email" class="email">umbrovskis@example.com</a></li>
+							</ul>
+						</footer><!-- // postfooter columns -->
+					</article><!-- post row -->
+
+				</div><!-- articles columns -->
+				<div class="sidebar columns grid_4 span4">
+					<p>some side text</p>
+				</div><!-- sidebar columns -->
+			</div><!-- #content row -->
+
+			<footer class="row" id="footer">
+				<div class="sidebar columns grid_12 span12">Some footer text</div>
+			</footer><!-- // #footer .row -->
+
+		</div><!-- // container -->
 	</div><!-- // #layout -->
 </div><!-- // #wrap -->
 </body></html>
